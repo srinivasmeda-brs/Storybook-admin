@@ -25,7 +25,7 @@ app.set('view engine', 'ejs');
 app.set('views', './src/views'); // Path to the views directory
 
 // Routes
-app.use('/api', adminRoute);
+app.use('/api/admin', adminRoute);
 
 // Error handling middleware
 app.use(notFound);

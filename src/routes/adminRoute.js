@@ -15,9 +15,9 @@ import {
 const router = express.Router();
 
 // Admin login and dashboard routes
-router.get("/admin", admin);
-router.get("/login", loginPage);
-router.post("/login", handleLogin);
+// router.get("/admin", admin);
+// router.get("/login", loginPage);
+// router.post("/login", handleLogin);
 router.get("/dashboard", adminDashboard);
 
 // Authors routes
